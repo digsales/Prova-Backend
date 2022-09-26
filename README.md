@@ -13,6 +13,7 @@ e enviar no classroom.
 1. Fazer uma requisição POST que envie as seguintes informações: tipoPessoa, cpf, cnpj,
 nome, sexo, cargo e salario. Ao final, deverá ser calculado o novo salário do
 funcionário, conforme itens abaixo:    
+
 1.1 - Validações:
 a) (0,5 pontos) - Se no tipoPessoa foi informado "PF" e NÃO foi informado o CPF,
 apresentar a mensagem: "CPF não informado".
@@ -25,6 +26,7 @@ apresentar a mensagem: "O campo cargo só é permitido para Pessoa Física".
 e) (0,5 pontos) - Se foram informados os campos cpf e cnpj ao mesmo tempo,
 apresentar a mensagem: "Favor informar somente uma opção, CPF ou CNPJ, de
 acordo com o Tipo de Pessoa".    
+
 1.2 Cálculos:
 a) (3,5 pontos) - Retornar um JSON com o nome, salário original e salário
 reajustado. Para tanto, deve-se aplicar o percentual de ajuste para as Pessoas
